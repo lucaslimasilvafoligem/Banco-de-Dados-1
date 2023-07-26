@@ -1,0 +1,22 @@
+1 - Implemente uma procedure PL/SQL chamada ajusta_preco. Esta procedure recebe
+o código de uma categoria e aplica um aumento de R$100,00 no preço (venda e
+compra) de todos os produtos da categoria informada.
+2 - Implemente uma função PL/SQL chamada get_total_prod_comprados. Esta função
+deverá receber uma data e retornar a soma dos valores dos produtos que foram
+comprados em uma data igual ou anterior a data recebida como parâmetro.
+3 - Implemente uma função PL/SQL chamada calcula_total_fornecedor. Esta função
+deverá receber o código do fornecedor e retornar o valor total da soma dos preços de
+compra dos produtos que foram fornecidos pelo fornecedor especificado.
+4 - Crie uma view que lista as ordens de compra no valor de mais de 10 mil reais que
+foram transportadas pela transportadora 'Azul Cargo'.
+5 - Crie uma view que lista as transportadoras e a quantidade compras que elas já
+transportaram.
+6 - Crie uma view que lista os fornecedores e a quantidade de produto por categoria
+fornecidos por eles. A view deve exibir os dados dos fornecedores, a categoria do
+produto e a quantidade de produtos por categoria.
+7 - Crie um trigger para modificar o nome da transportadora deixando a primeira letra
+no nome sempre maiúscula quando esse dado for inserido ou atualizado.
+8 - Crie um trigger para deixar em caixa alta todo o nome do cliente quando for
+inserido ou atualizado um número de CPF para ele.
+9 - Crie um trigger para substituir o valor do campo 'END_BAIRRO' por 'CENTRO' na
+tabela de CLIENTE se esse valor for nulo quando o cliente for atualizado ou inserido.

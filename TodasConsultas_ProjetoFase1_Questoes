@@ -1,0 +1,18 @@
+1 - Mostre o nome e o endereço do cliente que indicou 'João da Silva'.
+2 - Liste o CNPJ, nome e email dos fornecedores que não tem home page
+cadastrados no sistema.
+3 - Qual foi a compra mais cara feita entre os clientes nascidos na década de 90 e
+residem em Campina Grande?
+4 - Quantas ordens de compra estão aguardando pagamento?
+5 - Quais os códigos das notas fiscais de valor entre 3000 e 10000 reais?
+6 - Qual o nome dos clientes que fizeram ordens de compra de valor entre R$ 500 e
+R$ 5000, moram em Campina Grande e possuem mais de 100 pontos?
+7 - Qual o nome dos produtos que foram fabricados em 2019, possuem preço de
+venda de pelo menos 2000 reais e data de vencimento para o ano de 2022 em diante?
+8 - Qual o nome das transportadoras que estão transportando ordens de compra com
+valor de frete acima de R$ 100,00?
+9 - Recupere o nome das categorias cujo preço médio dos produtos é maior que R$
+1.000,00.
+10 - Recupere o nome dos fornecedores cujo preço de venda médio dos seus
+produtos não é maior que R$ 163,00.
+11 - Liste os 3 fornecedores que mais forneceram produtos.
