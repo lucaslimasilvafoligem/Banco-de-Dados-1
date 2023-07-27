@@ -3,7 +3,7 @@
 select ct.nome AS Nome, ct.end_rua AS Rua, ct.end_num AS Nmr, ct.end_bairro AS Bairro, ct.end_cidade AS Cidade
 from cliente ct, cliente e
 where ct.cliente_indica = e.codcli and
-      LOWER(e.nome) = 'joão da silva';
+  LOWER(e.nome) = 'joão da silva';
 
 -- consulta 2
 
@@ -35,21 +35,12 @@ WHERE n.VALOR_TOTAL >= 3000 and n.VALOR_TOTAL <= 10000;
 -- consulta 6
 
 select DISTINCT ct.nome
-from cliente
-
-
-
-
-
-
-
-
- ct
+from cliente ct
 join ordem_de_compra oc on ct.codcli = oc.codigo_cliente
 join nota_fiscal nf on oc.codordem = nf.codnf
 where nf.valor_total between 500 and 5000 and 
-      LOWER(ct.end_cidade) = 'campina grande' and
-      ct.pontos > 100;
+  LOWER(ct.end_cidade) = 'campina grande' and
+  ct.pontos > 100;
 
 -- consulta 7
 
