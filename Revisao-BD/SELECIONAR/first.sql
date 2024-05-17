@@ -1,0 +1,3 @@
+SELECT *
+FROM cliente
+FETCH FIRST 2 ROWS ONLY;

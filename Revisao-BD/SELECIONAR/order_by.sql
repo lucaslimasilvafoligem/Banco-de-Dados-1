@@ -1,0 +1,7 @@
+SELECT *
+FROM cliente
+ORDER BY 5;
+
+SELECT *
+FROM cliente
+ORDER BY 5 DESC, 2 ASC;
